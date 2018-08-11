@@ -33,7 +33,7 @@ public class HttpPortTomcat {
 	tomcat.addAdditionalTomcatConnectors(redirectConnector());
 	return tomcat;
 	}
-	 
+	 //dne
 	private Connector redirectConnector() {
 	 
 	Connector connector = new Connector(TomcatServletWebServerFactory.DEFAULT_PROTOCOL);
